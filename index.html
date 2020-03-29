@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Spotify Search</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="Spotify_Icon_CMYK_Green.png">
+
+    </head>
+    <body>
+        <header>
+            <h1>Spotify Search</h1>
+            <div id="search-box">
+                <select id="search-options">
+                    <option id="artist">artist</option>
+                    <option id="album">album</option>
+                </select>
+                <input type="text" name="user-input" value="">
+                <!-- make sure NOT to use "type" in the button element, important for making a request -->
+                <button id="submit-button">submit</button>
+
+            </div>
+
+        </header>
+        <main>
+            <div id="search-term">
+
+            </div>
+            <div id="results-container">
+
+
+            </div>
+
+            <button id="more">more</button>
+
+        </main>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
